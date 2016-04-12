@@ -1,0 +1,61 @@
+Input: Given movie Star Wars
+
+16/04/12 11:13:56 INFO DAGScheduler: Submitting ResultStage 13 (PythonRDD[21] at
+ RDD at PythonRDD.scala:43), which has no missing parents
+16/04/12 11:13:56 INFO MemoryStore: Block broadcast_7 stored as values in memory
+ (estimated size 5.3 KB, free 20.2 MB)
+16/04/12 11:13:56 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in
+memory (estimated size 3.4 KB, free 20.2 MB)
+16/04/12 11:13:56 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on l
+ocalhost:53913 (size: 3.4 KB, free: 491.1 MB)
+16/04/12 11:13:56 INFO SparkContext: Created broadcast 7 from broadcast at DAGSc
+heduler.scala:1006
+16/04/12 11:13:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage
+ 13 (PythonRDD[21] at RDD at PythonRDD.scala:43)
+16/04/12 11:13:56 INFO TaskSchedulerImpl: Adding task set 13.0 with 1 tasks
+16/04/12 11:13:56 INFO TaskSetManager: Starting task 0.0 in stage 13.0 (TID 21,
+localhost, partition 1,NODE_LOCAL, 1963 bytes)
+16/04/12 11:13:56 INFO Executor: Running task 0.0 in stage 13.0 (TID 21)
+16/04/12 11:13:56 INFO ShuffleBlockFetcherIterator: Getting 4 non-empty blocks o
+ut of 4 blocks
+16/04/12 11:13:56 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in
+0 ms
+16/04/12 11:13:58 INFO PythonRunner: Times: total = 1867, boot = 1863, init = 3,
+ finish = 1
+16/04/12 11:13:58 INFO Executor: Finished task 0.0 in stage 13.0 (TID 21). 1359
+bytes result sent to driver
+16/04/12 11:13:58 INFO DAGScheduler: ResultStage 13 (runJob at PythonRDD.scala:3
+93) finished in 1.896 s
+16/04/12 11:13:58 INFO DAGScheduler: Job 3 finished: runJob at PythonRDD.scala:3
+93, took 1.916856 s
+16/04/12 11:13:58 INFO TaskSetManager: Finished task 0.0 in stage 13.0 (TID 21)
+in 1894 ms on localhost (1/1)
+16/04/12 11:13:58 INFO TaskSchedulerImpl: Removed TaskSet 13.0, whose tasks have
+ all completed, from pool
+Top 10 similar movies for Star Wars (1977)
+Empire Strikes Back, The (1980) score: 0.989552207839   strength: 345
+Return of the Jedi (1983)       score: 0.985723086125   strength: 480
+Raiders of the Lost Ark (1981)  score: 0.981760098873   strength: 380
+20,000 Leagues Under the Sea (1954)     score: 0.97893856055    strength: 68
+12 Angry Men (1957)     score: 0.977657612045   strength: 109
+Close Shave, A (1995)   score: 0.977594829105   strength: 92
+African Queen, The (1951)       score: 0.976469222267   strength: 138
+Sting, The (1973)       score: 0.975151293774   strength: 204
+Wrong Trousers, The (1993)      score: 0.974868135546   strength: 103
+Wallace & Gromit: The Best of Aardman Animation (1996)  score: 0.97418161283
+strength: 58
+16/04/12 11:13:59 INFO SparkContext: Invoking stop() from shutdown hook
+16/04/12 11:13:59 INFO SparkUI: Stopped Spark web UI at http://192.168.217.1:404
+0
+16/04/12 11:13:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEnd
+point stopped!
+16/04/12 11:13:59 INFO MemoryStore: MemoryStore cleared
+16/04/12 11:13:59 INFO BlockManager: BlockManager stopped
+16/04/12 11:13:59 INFO BlockManagerMaster: BlockManagerMaster stopped
+16/04/12 11:13:59 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:
+OutputCommitCoordinator stopped!
+16/04/12 11:13:59 INFO SparkContext: Successfully stopped SparkContext
+16/04/12 11:13:59 INFO ShutdownHookManager: Shutdown hook called
+16/04/12 11:13:59 INFO ShutdownHookManager: Deleting directory C:\Users\ajay\App
+Data\Local\Temp\spark-edfb5be7-d088-4c36-ae76-e250a554eee9\pyspark-d73fd258-086c
+-4d14-87d7-4445edc613d1
